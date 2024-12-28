@@ -15,7 +15,7 @@ D:/Unity/Unity_2D_Magic_Match
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-7857
+2323
 Successfully changed project path to: D:/Unity/Unity_2D_Magic_Match
 D:/Unity/Unity_2D_Magic_Match
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ D:/Unity/Unity_2D_Magic_Match
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [42964]  Target information:
+Player connection [35148]  Target information:
 
-Player connection [42964]  * "[IP] 192.168.0.10 [Port] 0 [Flags] 2 [Guid] 2191522354 [EditorId] 2191522354 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-PIST1K0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [35148]  * "[IP] 192.168.0.10 [Port] 0 [Flags] 2 [Guid] 3769997883 [EditorId] 3769997883 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-PIST1K0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [42964] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [42964] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [35148] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [35148] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
-Refreshing native plugins compatible for Editor in 2047.10 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 6.34 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.53f1 (df4e529d20d3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.53f1/Editor/Data/Resources/UnitySubsystems
@@ -72,57 +72,627 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.53f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.53f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.53f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56940
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56912
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.53f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.53f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.53f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.53f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.487613 seconds.
-- Loaded All Assemblies, in  6.358 seconds
+Registered in 0.010937 seconds.
+- Loaded All Assemblies, in  0.276 seconds
 Native extension for WindowsStandalone target not found
-[usbmuxd] Start listen thread
-[usbmuxd] Listen thread started
-[usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 526 ms
+Android Extension - Scanning For ADB Devices 262 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.025 seconds
-Domain Reload Profiling: 7379ms
-	BeginReloadAssembly (4118ms)
+- Finished resetting the current domain, in  0.503 seconds
+Domain Reload Profiling: 778ms
+	BeginReloadAssembly (80ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (343ms)
+	RebuildCommonClasses (25ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (539ms)
-	LoadAllAssembliesAndSetupDomain (1346ms)
-		LoadAssemblies (4115ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (110ms)
+		LoadAssemblies (79ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1343ms)
-			TypeCache.Refresh (1342ms)
-				TypeCache.ScanAssembly (1109ms)
+		AnalyzeDomain (108ms)
+			TypeCache.Refresh (107ms)
+				TypeCache.ScanAssembly (97ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (1025ms)
+	FinalizeReload (504ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (990ms)
+		SetupLoadedEditorAssemblies (467ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (841ms)
+			InitializePlatformSupportModulesInManaged (336ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (99ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
+			ProcessInitializeOnLoadAttributes (93ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
 Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.552 seconds
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.680 seconds
+Domain Reload Profiling: 1230ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (366ms)
+		LoadAssemblies (250ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (181ms)
+			TypeCache.Refresh (150ms)
+				TypeCache.ScanAssembly (136ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (680ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (528ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (332ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.46 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6481 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (1.5 MB). Loaded Objects now: 6951.
+Memory consumption went from 226.1 MB to 224.6 MB.
+Total: 4.176800 ms (FindLiveObjects: 0.440000 ms CreateObjectMapping: 0.330400 ms MarkObjects: 2.988600 ms  DeleteObjects: 0.417200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.877 seconds
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.616 seconds
+Domain Reload Profiling: 1493ms
+	BeginReloadAssembly (576ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (444ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (244ms)
+		LoadAssemblies (262ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (46ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (28ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (616ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (473ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (301ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 2.67 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6476 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (1.1 MB). Loaded Objects now: 7054.
+Memory consumption went from 217.9 MB to 216.8 MB.
+Total: 3.873900 ms (FindLiveObjects: 0.473000 ms CreateObjectMapping: 0.342100 ms MarkObjects: 2.853200 ms  DeleteObjects: 0.204800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Board.cs: cb56d422051a2dae6ee88291a283098d -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/BonusItem.cs: 93aae32589cc4d67fc81e39cdb9763a3 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/TieBlocker.cs: 009ffe3fa38db8b9e623c1abf4c2b1fc -> 
+  custom:scripting/monoscript/fileName/Readme.cs: c016fd63fe4e64cf5d46e5dab404975f -> 
+  custom:scripting/monoscript/fileName/BonusGemBonusItem.cs: 89258e740f419aedb3f05a2ad09c47f7 -> 
+  custom:scripting/monoscript/fileName/Crate.cs: 0585df9c8d9ea8905f098b60354b5c4a -> 
+  custom:scripting/monoscript/fileName/VFXPoolSystem.cs: fcda61339dedb0403f5114dcec0cb590 -> 
+  custom:scripting/monoscript/fileName/Gem.cs: 9e6751915f7630d2476b7a363b137416 -> 
+  custom:scripting/monoscript/fileName/GemSpawner.cs: fe75ea66ee75cea4d824d8fa06277125 -> 
+  custom:scripting/monoscript/fileName/Match.cs: 55005f3bf1170ab6f7fd922f8163f681 -> 
+  custom:scripting/monoscript/fileName/LevelData.cs: ab7ca5883652ce0cbfdf0bcef8f37463 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/SmallBomb.cs: 60d4a80284047b1413edd0e56f542a7b -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/GemPlacerTile.cs: ee2c74dc1989c5ccfe0b092c4353e00c -> 
+  custom:scripting/monoscript/fileName/BonusGem.cs: cef90e56ac2ddff8a9e9dc88aaf1636d -> 
+  custom:scripting/monoscript/fileName/Obstacle.cs: eb86049565fd5e365daf5856d66024bd -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/BoardCell.cs: 0e43ed8c073ab26a4a0d6a23683632df -> 
+  custom:scripting/monoscript/fileName/UIHandler.cs: cd7ecac93e527a7848c68ed7583f6543 -> 
+  custom:scripting/monoscript/fileName/ShopItemBonusItem.cs: 5fe82c6cc7401cfe011ab7b7981ab2fd -> 
+  custom:scripting/monoscript/fileName/GameSettings.cs: ecc1512c0181de7f803a3e3324124f10 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 68ee9e9790d0f7e74bbc7d385155ed00 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 25471cbe804da07880caa9a723c358d6 -> 
+  custom:scripting/monoscript/fileName/MainMenu.cs: 39aebb8cd74ea46a44b7b5298b613c56 -> 
+  custom:scripting/monoscript/fileName/GameManager.cs: 990d9093ea5f97144daef244b6f4fee3 -> 
+  custom:scripting/monoscript/fileName/LineRocket.cs: 2ce40f336889199a32046529bdcab394 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ObstaclePlacer.cs: 762bbd9dd3ebdc40e6aa1b02b597d3da -> 
+  custom:scripting/monoscript/fileName/ColorClean.cs: c05feab930d11476b0640f4db0c5a168 -> 
+  custom:scripting/monoscript/fileName/LargeBomb.cs: 3a428898065761cd21c38970e9416143 -> 
+  custom:scripting/monoscript/fileName/LightManager.cs: 85f3060f198c873be08582967cad1c3b -> 
+  custom:scripting/monoscript/fileName/ReadmeEditor.cs: e3cf3e8a025d72ae9dd8d34d9c42ac06 -> 
+  custom:scripting/monoscript/fileName/ShopItemCoin.cs: 443f1f50822a54eca0cc3c8b24ef3391 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/LevelList.cs: 63c32369f3d76fa5d838683c515b25af -> 
+  custom:scripting/monoscript/fileName/ShopItemLive.cs: c22671c392c25e44588a50422bd4f00c -> 
+  custom:scripting/monoscript/fileName/InitLoader.cs: 7e2aa2652873607e677bfa1a5cec86ac -> 
+  custom:scripting/monoscript/fileName/BonusGemEditor.cs: 172761adef5a00827b46adf5e11b2ccd -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.34 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3 unused Assets / (1.0 MB). Loaded Objects now: 7054.
+Memory consumption went from 112.8 MB to 111.8 MB.
+Total: 4.313200 ms (FindLiveObjects: 0.432900 ms CreateObjectMapping: 0.342700 ms MarkObjects: 3.345200 ms  DeleteObjects: 0.191500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Board.cs: cb56d422051a2dae6ee88291a283098d -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/BonusItem.cs: 93aae32589cc4d67fc81e39cdb9763a3 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/TieBlocker.cs: 009ffe3fa38db8b9e623c1abf4c2b1fc -> 
+  custom:scripting/monoscript/fileName/Readme.cs: c016fd63fe4e64cf5d46e5dab404975f -> 
+  custom:scripting/monoscript/fileName/BonusGemBonusItem.cs: 89258e740f419aedb3f05a2ad09c47f7 -> 
+  custom:scripting/monoscript/fileName/Crate.cs: 0585df9c8d9ea8905f098b60354b5c4a -> 
+  custom:scripting/monoscript/fileName/VFXPoolSystem.cs: fcda61339dedb0403f5114dcec0cb590 -> 
+  custom:scripting/monoscript/fileName/Gem.cs: 9e6751915f7630d2476b7a363b137416 -> 
+  custom:scripting/monoscript/fileName/GemSpawner.cs: fe75ea66ee75cea4d824d8fa06277125 -> 
+  custom:scripting/monoscript/fileName/Match.cs: 55005f3bf1170ab6f7fd922f8163f681 -> 
+  custom:scripting/monoscript/fileName/LevelData.cs: ab7ca5883652ce0cbfdf0bcef8f37463 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/SmallBomb.cs: 60d4a80284047b1413edd0e56f542a7b -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/GemPlacerTile.cs: ee2c74dc1989c5ccfe0b092c4353e00c -> 
+  custom:scripting/monoscript/fileName/BonusGem.cs: cef90e56ac2ddff8a9e9dc88aaf1636d -> 
+  custom:scripting/monoscript/fileName/Obstacle.cs: eb86049565fd5e365daf5856d66024bd -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/BoardCell.cs: 0e43ed8c073ab26a4a0d6a23683632df -> 
+  custom:scripting/monoscript/fileName/UIHandler.cs: cd7ecac93e527a7848c68ed7583f6543 -> 
+  custom:scripting/monoscript/fileName/ShopItemBonusItem.cs: 5fe82c6cc7401cfe011ab7b7981ab2fd -> 
+  custom:scripting/monoscript/fileName/GameSettings.cs: ecc1512c0181de7f803a3e3324124f10 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 68ee9e9790d0f7e74bbc7d385155ed00 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 25471cbe804da07880caa9a723c358d6 -> 
+  custom:scripting/monoscript/fileName/MainMenu.cs: 39aebb8cd74ea46a44b7b5298b613c56 -> 
+  custom:scripting/monoscript/fileName/GameManager.cs: 990d9093ea5f97144daef244b6f4fee3 -> 
+  custom:scripting/monoscript/fileName/LineRocket.cs: 2ce40f336889199a32046529bdcab394 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ObstaclePlacer.cs: 762bbd9dd3ebdc40e6aa1b02b597d3da -> 
+  custom:scripting/monoscript/fileName/ColorClean.cs: c05feab930d11476b0640f4db0c5a168 -> 
+  custom:scripting/monoscript/fileName/LargeBomb.cs: 3a428898065761cd21c38970e9416143 -> 
+  custom:scripting/monoscript/fileName/LightManager.cs: 85f3060f198c873be08582967cad1c3b -> 
+  custom:scripting/monoscript/fileName/ReadmeEditor.cs: e3cf3e8a025d72ae9dd8d34d9c42ac06 -> 
+  custom:scripting/monoscript/fileName/ShopItemCoin.cs: 443f1f50822a54eca0cc3c8b24ef3391 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/LevelList.cs: 63c32369f3d76fa5d838683c515b25af -> 
+  custom:scripting/monoscript/fileName/ShopItemLive.cs: c22671c392c25e44588a50422bd4f00c -> 
+  custom:scripting/monoscript/fileName/InitLoader.cs: 7e2aa2652873607e677bfa1a5cec86ac -> 
+  custom:scripting/monoscript/fileName/BonusGemEditor.cs: 172761adef5a00827b46adf5e11b2ccd -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.413 seconds
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.108 seconds
+Domain Reload Profiling: 1519ms
+	BeginReloadAssembly (147ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (208ms)
+		LoadAssemblies (261ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1109ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (473ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (311ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 2.51 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6411 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (1.1 MB). Loaded Objects now: 7059.
+Memory consumption went from 211.9 MB to 210.8 MB.
+Total: 4.623700 ms (FindLiveObjects: 0.486700 ms CreateObjectMapping: 0.175600 ms MarkObjects: 3.642000 ms  DeleteObjects: 0.318600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Board.cs: cb56d422051a2dae6ee88291a283098d -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/BonusItem.cs: 93aae32589cc4d67fc81e39cdb9763a3 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/TieBlocker.cs: 009ffe3fa38db8b9e623c1abf4c2b1fc -> 
+  custom:scripting/monoscript/fileName/Readme.cs: c016fd63fe4e64cf5d46e5dab404975f -> 
+  custom:scripting/monoscript/fileName/BonusGemBonusItem.cs: 89258e740f419aedb3f05a2ad09c47f7 -> 
+  custom:scripting/monoscript/fileName/Crate.cs: 0585df9c8d9ea8905f098b60354b5c4a -> 
+  custom:scripting/monoscript/fileName/VFXPoolSystem.cs: fcda61339dedb0403f5114dcec0cb590 -> 
+  custom:scripting/monoscript/fileName/Gem.cs: 9e6751915f7630d2476b7a363b137416 -> 
+  custom:scripting/monoscript/fileName/GemSpawner.cs: fe75ea66ee75cea4d824d8fa06277125 -> 
+  custom:scripting/monoscript/fileName/Match.cs: 55005f3bf1170ab6f7fd922f8163f681 -> 
+  custom:scripting/monoscript/fileName/LevelData.cs: ab7ca5883652ce0cbfdf0bcef8f37463 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/SmallBomb.cs: 60d4a80284047b1413edd0e56f542a7b -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/GemPlacerTile.cs: ee2c74dc1989c5ccfe0b092c4353e00c -> 
+  custom:scripting/monoscript/fileName/BonusGem.cs: cef90e56ac2ddff8a9e9dc88aaf1636d -> 
+  custom:scripting/monoscript/fileName/Obstacle.cs: eb86049565fd5e365daf5856d66024bd -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/BoardCell.cs: 0e43ed8c073ab26a4a0d6a23683632df -> 
+  custom:scripting/monoscript/fileName/UIHandler.cs: cd7ecac93e527a7848c68ed7583f6543 -> 
+  custom:scripting/monoscript/fileName/ShopItemBonusItem.cs: 5fe82c6cc7401cfe011ab7b7981ab2fd -> 
+  custom:scripting/monoscript/fileName/GameSettings.cs: ecc1512c0181de7f803a3e3324124f10 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 68ee9e9790d0f7e74bbc7d385155ed00 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 25471cbe804da07880caa9a723c358d6 -> 
+  custom:scripting/monoscript/fileName/MainMenu.cs: 39aebb8cd74ea46a44b7b5298b613c56 -> 
+  custom:scripting/monoscript/fileName/GameManager.cs: 990d9093ea5f97144daef244b6f4fee3 -> 
+  custom:scripting/monoscript/fileName/LineRocket.cs: 2ce40f336889199a32046529bdcab394 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ObstaclePlacer.cs: 762bbd9dd3ebdc40e6aa1b02b597d3da -> 
+  custom:scripting/monoscript/fileName/ColorClean.cs: c05feab930d11476b0640f4db0c5a168 -> 
+  custom:scripting/monoscript/fileName/LargeBomb.cs: 3a428898065761cd21c38970e9416143 -> 
+  custom:scripting/monoscript/fileName/LightManager.cs: 85f3060f198c873be08582967cad1c3b -> 
+  custom:scripting/monoscript/fileName/ReadmeEditor.cs: e3cf3e8a025d72ae9dd8d34d9c42ac06 -> 
+  custom:scripting/monoscript/fileName/ShopItemCoin.cs: 443f1f50822a54eca0cc3c8b24ef3391 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/LevelList.cs: 63c32369f3d76fa5d838683c515b25af -> 
+  custom:scripting/monoscript/fileName/ShopItemLive.cs: c22671c392c25e44588a50422bd4f00c -> 
+  custom:scripting/monoscript/fileName/InitLoader.cs: 7e2aa2652873607e677bfa1a5cec86ac -> 
+  custom:scripting/monoscript/fileName/BonusGemEditor.cs: 172761adef5a00827b46adf5e11b2ccd -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.404 seconds
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.023 seconds
+Domain Reload Profiling: 1425ms
+	BeginReloadAssembly (143ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (202ms)
+		LoadAssemblies (252ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1024ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (472ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (308ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 2.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6411 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (1.1 MB). Loaded Objects now: 7064.
+Memory consumption went from 211.9 MB to 210.8 MB.
+Total: 4.258100 ms (FindLiveObjects: 0.624100 ms CreateObjectMapping: 0.322000 ms MarkObjects: 3.041700 ms  DeleteObjects: 0.269200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Board.cs: cb56d422051a2dae6ee88291a283098d -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/BonusItem.cs: 93aae32589cc4d67fc81e39cdb9763a3 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/TieBlocker.cs: 009ffe3fa38db8b9e623c1abf4c2b1fc -> 
+  custom:scripting/monoscript/fileName/Readme.cs: c016fd63fe4e64cf5d46e5dab404975f -> 
+  custom:scripting/monoscript/fileName/BonusGemBonusItem.cs: 89258e740f419aedb3f05a2ad09c47f7 -> 
+  custom:scripting/monoscript/fileName/Crate.cs: 0585df9c8d9ea8905f098b60354b5c4a -> 
+  custom:scripting/monoscript/fileName/VFXPoolSystem.cs: fcda61339dedb0403f5114dcec0cb590 -> 
+  custom:scripting/monoscript/fileName/Gem.cs: 9e6751915f7630d2476b7a363b137416 -> 
+  custom:scripting/monoscript/fileName/GemSpawner.cs: fe75ea66ee75cea4d824d8fa06277125 -> 
+  custom:scripting/monoscript/fileName/Match.cs: 55005f3bf1170ab6f7fd922f8163f681 -> 
+  custom:scripting/monoscript/fileName/LevelData.cs: ab7ca5883652ce0cbfdf0bcef8f37463 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/SmallBomb.cs: 60d4a80284047b1413edd0e56f542a7b -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/GemPlacerTile.cs: ee2c74dc1989c5ccfe0b092c4353e00c -> 
+  custom:scripting/monoscript/fileName/BonusGem.cs: cef90e56ac2ddff8a9e9dc88aaf1636d -> 
+  custom:scripting/monoscript/fileName/Obstacle.cs: eb86049565fd5e365daf5856d66024bd -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/BoardCell.cs: 0e43ed8c073ab26a4a0d6a23683632df -> 
+  custom:scripting/monoscript/fileName/UIHandler.cs: cd7ecac93e527a7848c68ed7583f6543 -> 
+  custom:scripting/monoscript/fileName/ShopItemBonusItem.cs: 5fe82c6cc7401cfe011ab7b7981ab2fd -> 
+  custom:scripting/monoscript/fileName/GameSettings.cs: ecc1512c0181de7f803a3e3324124f10 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 68ee9e9790d0f7e74bbc7d385155ed00 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 25471cbe804da07880caa9a723c358d6 -> 
+  custom:scripting/monoscript/fileName/MainMenu.cs: 39aebb8cd74ea46a44b7b5298b613c56 -> 
+  custom:scripting/monoscript/fileName/GameManager.cs: 990d9093ea5f97144daef244b6f4fee3 -> 
+  custom:scripting/monoscript/fileName/LineRocket.cs: 2ce40f336889199a32046529bdcab394 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ObstaclePlacer.cs: 762bbd9dd3ebdc40e6aa1b02b597d3da -> 
+  custom:scripting/monoscript/fileName/ColorClean.cs: c05feab930d11476b0640f4db0c5a168 -> 
+  custom:scripting/monoscript/fileName/LargeBomb.cs: 3a428898065761cd21c38970e9416143 -> 
+  custom:scripting/monoscript/fileName/LightManager.cs: 85f3060f198c873be08582967cad1c3b -> 
+  custom:scripting/monoscript/fileName/ReadmeEditor.cs: e3cf3e8a025d72ae9dd8d34d9c42ac06 -> 
+  custom:scripting/monoscript/fileName/ShopItemCoin.cs: 443f1f50822a54eca0cc3c8b24ef3391 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/LevelList.cs: 63c32369f3d76fa5d838683c515b25af -> 
+  custom:scripting/monoscript/fileName/ShopItemLive.cs: c22671c392c25e44588a50422bd4f00c -> 
+  custom:scripting/monoscript/fileName/InitLoader.cs: 7e2aa2652873607e677bfa1a5cec86ac -> 
+  custom:scripting/monoscript/fileName/BonusGemEditor.cs: 172761adef5a00827b46adf5e11b2ccd -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.412 seconds
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.315 seconds
+Domain Reload Profiling: 1725ms
+	BeginReloadAssembly (142ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (210ms)
+		LoadAssemblies (258ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1316ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (486ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (318ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 2.50 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6411 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (1.1 MB). Loaded Objects now: 7069.
+Memory consumption went from 211.9 MB to 210.8 MB.
+Total: 4.178700 ms (FindLiveObjects: 0.513200 ms CreateObjectMapping: 0.154000 ms MarkObjects: 3.288100 ms  DeleteObjects: 0.222200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Board.cs: cb56d422051a2dae6ee88291a283098d -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/BonusItem.cs: 93aae32589cc4d67fc81e39cdb9763a3 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/TieBlocker.cs: 009ffe3fa38db8b9e623c1abf4c2b1fc -> 
+  custom:scripting/monoscript/fileName/Readme.cs: c016fd63fe4e64cf5d46e5dab404975f -> 
+  custom:scripting/monoscript/fileName/BonusGemBonusItem.cs: 89258e740f419aedb3f05a2ad09c47f7 -> 
+  custom:scripting/monoscript/fileName/Crate.cs: 0585df9c8d9ea8905f098b60354b5c4a -> 
+  custom:scripting/monoscript/fileName/VFXPoolSystem.cs: fcda61339dedb0403f5114dcec0cb590 -> 
+  custom:scripting/monoscript/fileName/Gem.cs: 9e6751915f7630d2476b7a363b137416 -> 
+  custom:scripting/monoscript/fileName/GemSpawner.cs: fe75ea66ee75cea4d824d8fa06277125 -> 
+  custom:scripting/monoscript/fileName/Match.cs: 55005f3bf1170ab6f7fd922f8163f681 -> 
+  custom:scripting/monoscript/fileName/LevelData.cs: ab7ca5883652ce0cbfdf0bcef8f37463 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/SmallBomb.cs: 60d4a80284047b1413edd0e56f542a7b -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/GemPlacerTile.cs: ee2c74dc1989c5ccfe0b092c4353e00c -> 
+  custom:scripting/monoscript/fileName/BonusGem.cs: cef90e56ac2ddff8a9e9dc88aaf1636d -> 
+  custom:scripting/monoscript/fileName/Obstacle.cs: eb86049565fd5e365daf5856d66024bd -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/BoardCell.cs: 0e43ed8c073ab26a4a0d6a23683632df -> 
+  custom:scripting/monoscript/fileName/UIHandler.cs: cd7ecac93e527a7848c68ed7583f6543 -> 
+  custom:scripting/monoscript/fileName/ShopItemBonusItem.cs: 5fe82c6cc7401cfe011ab7b7981ab2fd -> 
+  custom:scripting/monoscript/fileName/GameSettings.cs: ecc1512c0181de7f803a3e3324124f10 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 68ee9e9790d0f7e74bbc7d385155ed00 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 25471cbe804da07880caa9a723c358d6 -> 
+  custom:scripting/monoscript/fileName/MainMenu.cs: 39aebb8cd74ea46a44b7b5298b613c56 -> 
+  custom:scripting/monoscript/fileName/GameManager.cs: 990d9093ea5f97144daef244b6f4fee3 -> 
+  custom:scripting/monoscript/fileName/LineRocket.cs: 2ce40f336889199a32046529bdcab394 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ObstaclePlacer.cs: 762bbd9dd3ebdc40e6aa1b02b597d3da -> 
+  custom:scripting/monoscript/fileName/ColorClean.cs: c05feab930d11476b0640f4db0c5a168 -> 
+  custom:scripting/monoscript/fileName/LargeBomb.cs: 3a428898065761cd21c38970e9416143 -> 
+  custom:scripting/monoscript/fileName/LightManager.cs: 85f3060f198c873be08582967cad1c3b -> 
+  custom:scripting/monoscript/fileName/ReadmeEditor.cs: e3cf3e8a025d72ae9dd8d34d9c42ac06 -> 
+  custom:scripting/monoscript/fileName/ShopItemCoin.cs: 443f1f50822a54eca0cc3c8b24ef3391 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/LevelList.cs: 63c32369f3d76fa5d838683c515b25af -> 
+  custom:scripting/monoscript/fileName/ShopItemLive.cs: c22671c392c25e44588a50422bd4f00c -> 
+  custom:scripting/monoscript/fileName/InitLoader.cs: 7e2aa2652873607e677bfa1a5cec86ac -> 
+  custom:scripting/monoscript/fileName/BonusGemEditor.cs: 172761adef5a00827b46adf5e11b2ccd -> 
+========================================================================
+Received Import Request.
+  Time since last request: 181345.815644 seconds.
+  path: Assets/GemHunterMatch/UI/GoalGemTemplate.uxml
+  artifactKey: Guid(46e256bb648e0e640a5d0e7575b27412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GemHunterMatch/UI/GoalGemTemplate.uxml using Guid(46e256bb648e0e640a5d0e7575b27412) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '38843322ac6bdb83a0095d78138d4a7b') in 0.031296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.102664 seconds.
+  path: Assets/GemHunterMatch/UI/LevelEntry.uxml
+  artifactKey: Guid(b72fbff2e2f117a46bfeeb66a8534d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GemHunterMatch/UI/LevelEntry.uxml using Guid(b72fbff2e2f117a46bfeeb66a8534d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '51834702f3ff6464fc308c289fd23d47') in 0.001177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.056567 seconds.
+  path: Assets/GemHunterMatch/UI/MainUI.uss
+  artifactKey: Guid(1b2947054596e714da0a2b077220e36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GemHunterMatch/UI/MainUI.uss using Guid(1b2947054596e714da0a2b077220e36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'abc2aa91d7ee6a2ffb0228f2f9aaa164') in 0.087236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GemHunterMatch/UI/LevelSelection.uxml
+  artifactKey: Guid(4b04b0dd8ad84c148b93f55826a691ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GemHunterMatch/UI/LevelSelection.uxml using Guid(4b04b0dd8ad84c148b93f55826a691ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '2bbdd6d0bbcc6615c5f9e52deff457e7') in 0.070318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 因為執行緒結束或應用程式要求，所以已中止 I/O 操作。
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
