@@ -4,9 +4,9 @@ using UnityEngine.VFX;
 namespace Match3
 {
     /// <summary>
-    /// A Gem is the base class of all thing that live inside cell on the board. It can be subclassed to specialize them (see
-    /// BonusGem and WoodenCrate).
-    /// This class contains a bunch of cached data mainly used for visual effect on the gem (movement, bounce etc..)
+    /// 寶石是棋盤上單元格內所有事物的基底類別。可以對其進行子類化，以使其專門化（參見
+    /// 獎勵寶石和木箱）。
+    /// 此類別包含一堆快取數據，主要用於寶石的視覺效果（移動、彈跳等）。
     /// </summary>
     public class Gem : MonoBehaviour
     {

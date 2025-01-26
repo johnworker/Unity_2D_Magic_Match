@@ -4,8 +4,8 @@ using UnityEngine;
 namespace Match3
 {
     /// <summary>
-    /// Contains all the data for the Level in which this is : Goals and max number of Moves. This will also  notify the
-    /// GameManager that we loaded a level
+    /// 包含此等級的所有資料：目標和最大移動次數。這也將通知
+    /// GameManager，我們載入了一個級別
     /// </summary>
     [DefaultExecutionOrder(12000)]
     public class LevelData : MonoBehaviour
@@ -65,8 +65,8 @@ namespace Match3
 
         void Update()
         {
-            //to detect device orientation change or resolution change, we check if the screen change since since init
-            //and recompute camera zoom
+            //為了偵測裝置方向變化或解析度變化，我們檢查自初始化以來螢幕是否發生變化
+            //並重新計算相機變焦
             if (Screen.width != m_StartingWidth || Screen.height != m_StartingHeight)
             {
                 GameManager.Instance.ComputeCamera();
